@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-p*c1kt7ozds%((#b&olw&80_=0_t$b%p@#ch2nxb@%^mmh)k!z'
+SECRET_KEY = 'django-insecure-m+jjt^o^qx28flc=4ag6v4=#6#ar+e+a@=(h-x(ac75_rf2bg='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'homefurn',
+    'homefurnish',
     "corsheaders",
     'rest_framework',
 ]
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'rentfurlax.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'homefurn',
+        'NAME': 'homefurnish',
     }
 }
 
@@ -137,5 +137,4 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
-
 
